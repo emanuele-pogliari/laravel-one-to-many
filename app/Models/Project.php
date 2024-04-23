@@ -15,6 +15,7 @@ class Project extends Model
         'used_tech',
         'url_repo',
         'date',
+        'type_id',
     ];
 
     public function type()

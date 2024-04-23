@@ -62,14 +62,9 @@
                         <option value=""></option>
                         @foreach($types as $type)
 
-                        <option value="{{$type->id}}" {{$type->id == old('type_id') ? 'selected' : ""}}>{{$type->name}}</option>
+                        <option value="{{$type->id}}" {{$type->id == old('type_id', $project->type ? $project->type->id : '')}}>{{$type->name}}</option>
                         @endforeach 
                     </select>
-                    @error('used_tech')
-                    <div class="invalid-feedback">
-                        {{$message}}
-                    </div>
-                @enderror
                 </div>
               
                 <div class="mb-3">

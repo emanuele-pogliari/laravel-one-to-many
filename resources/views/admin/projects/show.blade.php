@@ -22,7 +22,7 @@
                   <h3 class="title">Name: {{$project->name}}</h3>
                   <p class="desc fs-4">Description: {{$project->description}}</p>
                   <p class="used_tech fs-4">Languages Used: {{$project->used_tech}}</p>
-                  <p>{{$project->$type}}</p>
+                  <p>{{$project->type?->name}}</p>
                   <a class="link-repo fs-4" href="{{$project->url_repo}}">Link Repo</a>
                   <p class="date fs-4">Pubblication Date: {{$project->date}}</p>
                   <a href="{{route('admin.projects.edit', $project->id)}}"><button class="btn btn-lg btn-primary">Edit</button></a>
