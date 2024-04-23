@@ -29,6 +29,7 @@
                     <th scope="row">{{$project->id}}</th>
                     <td>{{$project->name}}</td>
                     <td>{{$project->created_at}}</td>
+                    <td>{{$project->type?->name}}</td>
                     <td>
                         <a href="{{route('admin.projects.show', $project->id)}}" class="text-decoration-none">Manage</a>
                     </td>

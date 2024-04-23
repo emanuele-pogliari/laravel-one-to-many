@@ -16,4 +16,9 @@ class Project extends Model
         'url_repo',
         'date',
     ];
+
+    public function type()
+    {
+        return $this->belongsTo(Type::class);
+    }
 }
