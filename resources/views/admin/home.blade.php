@@ -32,9 +32,9 @@
                 </div>
                 <div class="col-6 p-3">
                     <div class="card">
-                        <div class="card-header fs-2">{{ __('Placeholder') }}</div>
+                        <div class="card-header fs-2">{{ __('Manage Types') }}</div>
                         <div class="card-body fs-4 px-5 d-flex flex-column gap-4">
-                           Placeholder for fure functionality 1
+                           Manage types <a href="{{route('admin.types.index')}}"><button class="btn btn-primary btn-lg">Manage Types</button></a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                     <div class="card">
                         <div class="card-header fs-2">{{ __('Placeholder') }}</div>
                         <div class="card-body fs-4 px-5 d-flex flex-column gap-4">
-                           Placeholder for fure functionality 2
+                           Placeholder for future functionality 2
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     <div class="card">
                         <div class="card-header fs-2">{{ __('Placeholder') }}</div>
                         <div class="card-body fs-4 px-5 d-flex flex-column gap-4">
-                           Placeholder for fure functionality 3
+                           Placeholder for future functionality 3
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                     <div class="card">
                         <div class="card-header fs-2">{{ __('Placeholder') }}</div>
                         <div class="card-body fs-4 px-5 d-flex flex-column gap-4">
-                           Placeholder for fure functionality 4
+                           Placeholder for future functionality 4
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <div class="card">
                         <div class="card-header fs-2">{{ __('Placeholder') }}</div>
                         <div class="card-body fs-4 px-5 d-flex flex-column gap-4">
-                           Placeholder for fure functionality 5
+                           Placeholder for future functionality 5
                         </div>
                     </div>
                 </div>
