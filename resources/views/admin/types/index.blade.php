@@ -1,7 +1,14 @@
 @extends('layouts.admin')
 @section('content')
-<h1>INDEX TYPE VIEW</h1>
 
+
+<div class="container-fluid">
+  <div class="row">
+      <div id="sidebar">
+          @include('admin/partials/side')
+      </div>
+      <div id="main-content-edit">
+        <h1 class="p-5">Index Type View</h1>
 
 <div class="container">
     <table class="table table-hover mb-5">
@@ -27,4 +34,7 @@
         <a href="{{route('admin.types.create')}}"><button class="btn btn-lg btn-primary">Add a Type</button></a>
     </div>
 </div>
+      </div>
+      </div>
+      </div>
 @endsection

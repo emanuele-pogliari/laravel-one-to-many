@@ -7,7 +7,7 @@
             @include('admin/partials/side')
         </div>
         <div id="main-content-edit">
-            <h1>Test edit type page</h1>
+            <h1 class="p-5">Test edit type page</h1>
             <div class="container p-5">
                 <h2>Modify {{$type->name}}</h2>
               <form class="my-5" action="{{route('admin.types.update', $type->id)}}" method="POST" enctype="multipart/form-data">

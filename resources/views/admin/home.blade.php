@@ -33,8 +33,9 @@
                 <div class="col-6 p-3">
                     <div class="card">
                         <div class="card-header fs-2">{{ __('Manage Types') }}</div>
-                        <div class="card-body fs-4 px-5 d-flex flex-column gap-4">
-                           Manage types <a href="{{route('admin.types.index')}}"><button class="btn btn-primary btn-lg">Manage Types</button></a>
+                        <div class="card-body fs-4 px-5 d-flex d-flex justify-content-between  gap-4">
+                           <div class="text-center">Manage types <a href="{{route('admin.types.index')}}"><button class="btn btn-primary btn-lg">Manage Types</button></a></div>
+                            <div class="text-center">Create New Types <a href="{{route('admin.types.create')}}"><button class="btn btn-primary btn-lg">Create Types</button></a></div>
                         </div>
                     </div>
                 </div>
